@@ -1,0 +1,19 @@
+# Environments
+.env
+.venv/
+
+# Python Cache
+__pycache__/
+*.pyc
+
+# Local Database / Redis
+dump.rdb
+
+# OS / IDE
+.DS_Store
+.vscode/
+.idea/
+
+# AI / Agent scratchpads
+.gemini/
+scratch/

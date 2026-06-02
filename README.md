@@ -58,12 +58,12 @@ cp .env.example .env
 docker compose up -d
 
 # Run FastAPI
-uvicorn app.main:app --reload --port 8080
+uvicorn app.main:app --reload --port 8000
 ```
 
 ### 4. API docs
 
-Open `http://localhost:8080/docs` — Swagger UI with all endpoints.
+Open `http://localhost:8000/docs` — Swagger UI with all endpoints.
 
 ---
 
